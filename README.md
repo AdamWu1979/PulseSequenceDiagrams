@@ -9,3 +9,5 @@ The pulse sequence lines are stored in structs, initialised using the ps_initlin
 The ps_plot function takes in any number of line structs and plots them to generate the pulse sequence diagram. Pulse sequence elements usually have an input option for height and width. These are supplied in arbitrary units, with one plotting unit being split into 100 points for plotting so as to be able to capture shaped pulses. Shaped pulses should be supplied as a real 1xN vector in Matlab. The function resamples the pulse shape so as to rescale the pulse into the plotting units.
 
 ds2nfu function is used to go between data units and figure units for the plotting of annotations. This function is taken from Michelle Hirsch's file exchange http://uk.mathworks.com/matlabcentral/fileexchange/10656-data-space-to-figure-units-conversion
+
+Feel free to use and modify this as you wish
