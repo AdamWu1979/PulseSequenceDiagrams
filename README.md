@@ -1,4 +1,4 @@
-#Pulse Sequence Diagrams
+Pulse Sequence Diagrams
 
 Matlab code for generating MR pulse sequence diagrams
 
