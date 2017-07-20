@@ -2,7 +2,7 @@ Pulse Sequence Diagrams
 
 Matlab code for generating MR pulse sequence diagrams
 
-This project contains a bunch of functions used to generate pulse sequence diagrams with functions for a few basic pulse shapes or capacity to take in any general pulse shape. The supplied spinecho.m sript shows a simple example of how to use the functions to generate a pulse sequence diagram.
+This project contains a bunch of functions used to generate pulse sequence diagrams with functions for a few basic pulse shapes or capacity to take in any general pulse shape. The supplied spinecho.m sript shows a simple example of how to use the functions to generate a pulse sequence diagram. LASERsequence.m provides simple example of more complex sequence using shaped RF and gradients. 
 
 The pulse sequence lines are stored in structs, initialised using the ps_initline function. Annotation lines (such as arrows spanning a section of the sequnce to label TE) are also initialised using ps_initline function, passing an argument to identify the line as an annotation line.
 
