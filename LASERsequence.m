@@ -10,9 +10,9 @@ load GOIAWpulse
 
 RFline = ps_initline('RF', 1);
 RFline = ps_line(RFline, 0.5);
-RFline = ps_square(RFline, 0.5, 1, '90');
+RFline = ps_square(RFline, 0.5, 1, true, '90');
 RFline = ps_line(RFline, 0.5);
-RFline = ps_shapedpulse(RFline, GOIAWpulse.B1, 1, 1);
+RFline = ps_shapedpulse(RFline, GOIAWpulse.B1, 1, 1, '180');
 RFline = ps_line(RFline, 1);
 RFline = ps_shapedpulse(RFline, GOIAWpulse.B1, 1, 1);
 RFline = ps_line(RFline, 1);

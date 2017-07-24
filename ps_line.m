@@ -5,5 +5,5 @@ function line_out = ps_line(line_in, width);
 %   width       - length of line to draw
 
 line_out = line_in;
-line_out.line = [line_in.line, zeros(1,width*100)];
+line_out.line = [line_in.line, zeros(1,round(width*100))];
 line_out.length = line_in.length + width*100;
